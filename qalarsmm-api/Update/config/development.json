@@ -1,0 +1,68 @@
+{
+  "update_qalarsmm": {
+    "mail_url": "https://qalarsmm:3003",
+    "host_url": "http://qalarsmm:3003",
+    "port": "3003",
+    "host": "qalarsmm:3003"
+  },
+  "session": {
+    "name": "SBCS",
+    "key_1": "somerandomkey",
+    "key_2": "somerandomkey"
+  },
+  "swagger_host_url": "qalarsmm:3003",
+  "user_qalarsmm": {
+    "host_url": "http://qalarsmm:3000"
+  },
+  "facebook_api": {
+    "app_id": "<< APP ID >>",
+    "secret_key": "<< APP SECRET >>",
+    "redirect_url": "https://local.qalarsmm.com/facebook-callback",
+    "fbprofile_add_redirect_url": "https://local.qalarsmm.com/addSocialProfile",
+    "webhook_token": "<< webhook_token >>"
+  },
+  "google_api": {
+    "client_id": "<< APP CLIENT ID >>",
+    "client_secrets": "<< CLIENT SECRET >>",
+    "redirect_url": "https://local.qalarsmm.com/google-callback",
+    "youtube_redirect_url": "https://local.qalarsmm.com/youtube/callback",
+    "google_profile_add_redirect_url": "https://local.qalarsmm.com/youtube/callback",
+    "api_key": "<< APP KEY >>",
+    "dynamic_link": "https://socionode.page.link",
+    "youtube_webhook_url": "http://qalarsmm:3002/v1/webhooks/youtube"
+  },
+  "authorize": {
+    "secret": "<< RANDOM SECRET >>",
+    "token_secret": "<< RANDOM TOKEN >>",
+    "algorithm": "aes-256-cbc",
+    "encoding_typeOne": "utf8",
+    "encoding_typeTwo": "hex"
+  },
+  "mailService": {
+    "defaultMailOption": "sendgridapi",
+    "sendgrid": {
+      "username": "<< Sendgrid username >>",
+      "password": "<< Sendgrid Password >>",
+      "frommail": "<< From Mail >>",
+      "ccmail": "<< Any CC Mail >>",
+      "apiKey": "<< SEND-GRID TOKEN >>"
+    },
+    "gmailServices": {
+      "email": "<< Google email >>",
+      "password": "<< Google email Password >>"
+    }
+  },
+  "mysql": {
+    "host": "qalarsmm",
+    "username": "<< username >>",
+    "database": "<< Database name >>",
+    "password": "<< Database password >>"
+  },
+  "mongo": {
+    "username": "<< username >>",
+    "password": "<< Database password >>",
+    "host": "<< host >>",
+    "db_name": "<< Database name >>"
+  },
+  "test_url": ""
+}

@@ -1,0 +1,15 @@
+---
+
+# qalarsmm GIT repo
+qalarsmm_git_repo: 'https://github.com/mekilery/qalarsmm-5.0.git'
+
+# Architecture the Docker image should be built for 
+qalarsmm_architecture: "amd64"
+
+# Base path for Docker files and data
+qalarsmm_base_data_path: "/deployments/qalarsmm"
+
+# qalarsmm username and group(will be created if they don't already exist)
+qalarsmm_user_username: "qalarsmm"
+qalarsmm_user_groupname: "qalarsmm"
+qalarsmm_user_gid: 2122

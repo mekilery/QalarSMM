@@ -1,0 +1,12 @@
+ #qalarsmm Docker Ansible Deploy
+- name: qalarsmm Docker Ansible Deploy
+  hosts: 
+    - qalarsmm
+  become: true
+  become_user: root
+  vars_files:
+    - vars/config.yml
+  roles:
+    - socio-docker
+    - socio-env
+    - socio-base
